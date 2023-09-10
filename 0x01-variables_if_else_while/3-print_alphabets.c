@@ -5,7 +5,6 @@
  *
  *Return: 0 (success)
  */
-
 int main(void)
 {
 	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -13,8 +12,8 @@ int main(void)
 
 	for (i = 0; i < 52; i++)
 	{
-		putchar(alp[i]);
+		putchar(alph[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
