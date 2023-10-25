@@ -2,7 +2,7 @@
 
 /**
  *pop_listint - deletes the head node of a listint_t
- *@head: head of the list
+ *@head: pointer to the head of the list
  *
  *Return: the deleted node data
  */
